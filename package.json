@@ -12,6 +12,7 @@
     "object",
     "dotpath"
   ],
+  "repository": "https://github.com/ngr900/deep-property",
   "author": "Kamil Szydlowski",
   "license": "MIT",
   "devDependencies": {
