@@ -85,7 +85,9 @@ If the property at `keyPath` is explicitly set to `undefined` (e.g. `{foo: undef
 
 ## extractDeepProperty(dataObject, keyPath)
 
-Returns an array containing a `boolean` representing the existance of the property at `keyPath` and its value (e.g. `[true, "some value"]` or `[false, undefined]`).
+Returns an array containing:
+- `true` if the property at `keyPath` on `dataObject` is set, and `false` if it is not
+- value of the property at `keyPath` on `dataObject`
 
 If the property at `keyPath` is explicitly set to `undefined` (e.g. `{foo: undefined}`), this function will return `[true, undefined]`.
 
